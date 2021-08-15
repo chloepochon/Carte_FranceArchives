@@ -3,7 +3,7 @@
   :world_map: **Présentation du projet**
 
 Cette carte a été développée durant mon stage réalisé au SIAF dans le cadre de ma deuxième année de master "Technologies numériques appliquées à l'Histoire" de l'Ecole nationale des chartes.
-La carte représente l'ensemble des services d'archives partenaires de _FranceArchives_ au 12 juillet 2021 et indique leurs informations pratiques. Elle devrait remplacer celle [encore disponible]https://francearchives.fr/fr/annuaire/departements) actuellement sur le portail.
+La carte représente l'ensemble des services d'archives partenaires de _FranceArchives_ au 12 juillet 2021 et indique leurs informations pratiques. Elle devrait remplacer celle (encore disponible actuellement) [https://francearchives.fr/fr/annuaire/departements] sur le portail.
 
 
  
