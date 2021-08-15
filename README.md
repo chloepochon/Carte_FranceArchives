@@ -3,7 +3,7 @@
   :world_map: **Présentation du projet**
 
 Cette carte a été développée durant mon stage réalisé au SIAF dans le cadre de ma deuxième année de master "Technologies numériques appliquées à l'Histoire" de l'Ecole nationale des chartes.
-La carte représente l'ensemble des services d'archives partenaires de ####FranceArchives au 12 juillet 2021 et indique leurs informations pratiques. Elle devrait remplacer celle [https://francearchives.fr/fr/annuaire/departements](encore disponible) actuellement sur le portail.
+La carte représente l'ensemble des services d'archives partenaires de _FranceArchives_ au 12 juillet 2021 et indique leurs informations pratiques. Elle devrait remplacer celle [https://francearchives.fr/fr/annuaire/departements](encore disponible) actuellement sur le portail.
 
 
  
@@ -21,8 +21,8 @@ Le projet comprend :
   - Un pour les départements d'outre mer.
   - Un pour les marqueurs indiquant l'emplacement des services.
 * Deux fichiers HTML :
-- L'un pour l'affichage de la carte seule.
-- L'autre pour l'affichage de la carte dans l'environnement graphique du portail ####FranceArchives.
+  - L'un pour l'affichage de la carte seule.
+  - L'autre pour l'affichage de la carte dans l'environnement graphique du portail _FranceArchives_.
 
 
   
@@ -41,10 +41,10 @@ Le projet comprend :
   3. Vérifier que tout est bien installé : `pip freeze`
   4. Désactiver l'environnement : `deactivate`
  
- * Enfin l'utilisateur-ice devra cloner le dossier : `git clone https://github.com/chloepochon/Carte_ARK_Alliance`
+ * Enfin l'utilisateur-ice devra cloner le dossier : `git clone https://github.com/chloepochon/Carte_FranceArchives`
  
  * Il pourra alors lancer la carte : 
     - Via le terminal dans le dossier du projet, simuler le serveur HTTP : `python3 -m http.server`
     - Aller sur http://0.0.0.0:8000/ 
-    - Cliquer sur Carte_FA_seule.html pour visualiser la carte seule ou Carte_FranceArchives.html pour visualiser la carte telle qu'elle pourrait être publiée sur le portail ####FranceArchives
+    - Cliquer sur Carte_FA_seule.html pour visualiser la carte seule ou Carte_FranceArchives.html pour visualiser la carte telle qu'elle pourrait être publiée sur le portail _FranceArchives_.
   
