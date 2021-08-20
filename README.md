@@ -10,6 +10,7 @@ La carte représente l'ensemble des services d'archives partenaires de _FranceAr
 :gear: **Les fonctionnalités**
 
 Le projet comprend :
+* Le fichier CSV de données brutes et harmonisée
 * Le fichier CSV reprenant l'ensemble des données de l'annuaire qui ont été enrichies.
 * Un script Python permettant le calcul des coordonnées géographiques manquantes dans le fichier CSV.
 * Un script Python permettant le formatage de l'ensemble des données en GeoJSON.
