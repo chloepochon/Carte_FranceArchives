@@ -29,7 +29,7 @@ Le projet comprend :
   
 :desktop_computer: **Installation et lancement**
  
- * Via son terminal, l'utilisateur-ice doit créer un environnement virtuel dans un dossier de son choix : `virtualenv env -p python3`
+ * Via son terminal, l'utilisateur-ice doit créer un environement virtuel dans un dossier de son choix : `virtualenv env -p python3`
  * L'utilisateur-ice devra installer des packages et libraries : 
   1. Pour cela il doit sourcer son environnement virtuel 
     -> dans le dossier choisi faire la commande `source env/bin/activate` 
@@ -47,5 +47,5 @@ Le projet comprend :
  * Il pourra alors lancer la carte : 
     - Via le terminal dans le dossier du projet, simuler le serveur HTTP : `python3 -m http.server`
     - Aller sur http://0.0.0.0:8000/ 
-    - Cliquer sur Carte_FA_seule.html pour visualiser la carte seule ou Carte_FranceArchives.html pour visualiser la carte telle qu'elle pourrait être publiée sur le portail _FranceArchives_.
+    - Cliquer sur `Carte_FA_seule.html` pour visualiser la carte seule ou `Carte_FranceArchives.html` pour visualiser la carte telle qu'elle pourrait être publiée sur le portail _FranceArchives_.
   
