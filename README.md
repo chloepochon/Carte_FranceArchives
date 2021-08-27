@@ -10,7 +10,7 @@ La carte représente l'ensemble des services d'archives partenaires de _FranceAr
 :gear: **Les fonctionnalités**
 
 Le projet comprend :
-* Le fichier CSV de données brutes et harmonisée
+* Le fichier CSV de données brutes et harmonisées.
 * Le fichier CSV reprenant l'ensemble des données de l'annuaire qui ont été enrichies.
 * Un script Python permettant le calcul des coordonnées géographiques manquantes dans le fichier CSV.
 * Un script Python permettant le formatage de l'ensemble des données en GeoJSON.
@@ -29,7 +29,7 @@ Le projet comprend :
   
 :desktop_computer: **Installation et lancement**
  
- * Via son terminal, l'utilisateur-ice doit créer un environement virtuel dans un dossier de son choix : `virtualenv env -p python3`
+ * Via son terminal, l'utilisateur-ice doit créer un environnement virtuel dans un dossier de son choix : `virtualenv env -p python3`
  * L'utilisateur-ice devra installer des packages et libraries : 
   1. Pour cela il doit sourcer son environnement virtuel 
     -> dans le dossier choisi faire la commande `source env/bin/activate` 
