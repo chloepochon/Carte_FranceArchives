@@ -16,10 +16,10 @@ Le projet comprend :
 * Un script Python permettant le formatage de l'ensemble des données en GeoJSON : `csv_to_geojson.py`
 * Un fichier CSS et un fichier JavaScript dans leur dossier respectif pour le panneau latéral.
 * Les différents fichiers GeoJSON :
-  - Un pour les différents pays du monde : `world_medium_without_france2.json`
-  - Un pour la métropole : `metropole.geojson`
-  - Un pour les départements métropolitains : `departements.geojson`
-  - Un pour les départements d'outre mer : `departements_outre_mer_uniquement.json`
+  - Un pour les différents pays du monde : `geojson_layers/world_medium_without_france2.json`
+  - Un pour la métropole : `geojson_layers/metropole.geojson`
+  - Un pour les départements métropolitains : `geojson_layers/departements.geojson`
+  - Un pour les départements d'outre mer : `geojson_layers/departements_outre_mer_uniquement.json`
   - Un pour les marqueurs indiquant l'emplacement des services : `data_annuaire.geojson`
 * Deux fichiers HTML :
   - L'un pour l'affichage de la carte seule : `Carte_FA_seule.html`
