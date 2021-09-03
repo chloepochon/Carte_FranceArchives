@@ -10,6 +10,8 @@ La carte représente l'ensemble des services d'archives partenaires de _FranceAr
 :gear: **Les fonctionnalités**
 
 Le projet comprend :
+* Le fichier CSV de données brutes et harmonisées correspondant au premier modèle de données : `data_annuaire_prepared.csv`
+* Le script Python permettant le calcul des coordonnées géographiques manquantes dans le premier fichier CSV : `geocodage_coords_manquantes.py`
 * Le fichier CSV reprenant l'ensemble des données de l'annuaire qui ont été enrichies : `data_annuaire_prepared_output.csv`
 * Un script Python permettant le formatage de l'ensemble de ces données en GeoJSON : `csv_to_geojson.py`
 * Un fichier CSS et un fichier JavaScript dans leur dossier respectif pour le panneau latéral.
@@ -23,11 +25,6 @@ Le projet comprend :
   - L'un pour l'affichage de la carte seule : `Carte_FA_seule.html`
   - L'autre pour l'affichage de la carte dans l'environnement graphique du portail _FranceArchives_ : `Carte_FranceArchives.html`
 
-
-Le dossier `Script_python_geocodage` comprend :
-* Le fichier CSV de données brutes et harmonisées correspondant au premier modèle de données : `data_annuaire_prepared.csv`
-* Le script Python permettant le calcul des coordonnées géographiques manquantes dans le premier fichier CSV : `geocodage_coords_manquantes.py`
-> Comme précisé dans le mémoire, ce script est partiellement fonctionnel et ne nous a pas reservi compte tenu de nos choix ultérieurs, mais il est toutefois laissé en guise d'exemple afin d'illustrer notre démarche complète.
   
 :desktop_computer: **Installation et lancement**
  
