@@ -10,9 +10,9 @@ La carte représente l'ensemble des services d'archives partenaires de _FranceAr
 :gear: **Les fonctionnalités**
 
 Le projet comprend :
-* Le fichier CSV de données brutes et harmonisées correspondant au premier modèle de données : `data_annuaire_prepared.csv`
+* Le fichier CSV de données brutes et harmonisées : `data_annuaire_prepared.csv`
 * Le script Python permettant le calcul des coordonnées géographiques manquantes dans le premier fichier CSV : `geocodage_coords_manquantes.py`
-* Le fichier CSV reprenant l'ensemble des données de l'annuaire qui ont été enrichies : `data_annuaire_prepared_output.csv`
+* Le fichier CSV  de sortie reprenant l'ensemble des données de l'annuaire : `data_annuaire_prepared_output.csv`
 * Un script Python permettant le formatage de l'ensemble de ces données en GeoJSON : `csv_to_geojson.py`
 * Un fichier CSS et un fichier JavaScript dans leur dossier respectif pour le panneau latéral.
 * Les différents fichiers GeoJSON :
