@@ -51,7 +51,7 @@ Le projet comprend :
 
 
 * Si l'utilisateur souhaite utiliser la fonction de géocodage, dans le terminal :
- - Sourcer l'environnement virtuel : `source env/bin/activate`
- - Pour le géocodage : `python geocodage_coords_manquantes.py`
- - Pour le formatage en GeoJSON : `python csv_to_geojson.py`
+   - Sourcer l'environnement virtuel : `source env/bin/activate`
+   - Pour le géocodage : `python geocodage_coords_manquantes.py`
+   - Pour le formatage en GeoJSON : `python csv_to_geojson.py`
   
