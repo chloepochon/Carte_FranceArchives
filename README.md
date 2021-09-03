@@ -27,7 +27,7 @@ Le projet comprend :
 Le dossier `Script_python_geocodage` comprend :
 * Le fichier CSV de données brutes et harmonisées correspondant au premier modèle de données : `data_annuaire_prepared.csv`
 * Le script Python permettant le calcul des coordonnées géographiques manquantes dans le premier fichier CSV : `geocodage_coords_manquantes.py`
-> Comme précisé dans le mémoire, ce script est partiellement fonctionnel et ne nous a pas reservi compte tenu de nos choix ultérieurs, mais il est toutefois laissé en guise d'exemple.
+> Comme précisé dans le mémoire, ce script est partiellement fonctionnel et ne nous a pas reservi compte tenu de nos choix ultérieurs, mais il est toutefois laissé en guise d'exemple afin d'illustrer notre démarche complète.
   
 :desktop_computer: **Installation et lancement**
  
