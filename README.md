@@ -3,7 +3,7 @@
   :world_map: **Présentation du projet**
 
 Cette carte a été développée par Chloé Pochon durant le stage réalisé au Service interministériel des Archives de France (SIAF), dans le cadre de la deuxième année de master "Technologies numériques appliquées à l'histoire" de l'École nationale des chartes.
-La carte représente l'ensemble des services d'archives partenaires de _FranceArchives_ au 12 juillet 2021 et indique leurs informations pratiques. Il s'agit d'une maquette en vue de la refonde de la carte [encore disponible actuellement](https://francearchives.fr/fr/annuaire/departements) sur le portail.
+La carte représente l'ensemble des services d'archives partenaires de _FranceArchives_ au 12 juillet 2021 et indique leurs informations pratiques. Il s'agit d'une maquette en vue de la refonte de la carte [encore disponible actuellement](https://francearchives.fr/fr/annuaire/departements) sur le portail.
 
 
  
@@ -17,7 +17,7 @@ Le projet comprend :
   - Un pour les différents pays du monde : `geojson_layers/world_medium_without_france2.json`
   - Un pour la métropole : `geojson_layers/metropole.geojson`
   - Un pour les départements métropolitains : `geojson_layers/departements.geojson`
-  - Un pour les départements d'outre mer : `geojson_layers/departements_outre_mer_uniquement.json`
+  - Un pour les départements d'outre-mer : `geojson_layers/departements_outre_mer_uniquement.json`
   - Un pour les marqueurs indiquant l'emplacement des services : `data_annuaire.geojson`
 * Deux fichiers HTML :
   - L'un pour l'affichage de la carte seule : `Carte_FA_seule.html`
@@ -27,6 +27,7 @@ Le projet comprend :
 Le dossier `Script_python_geocodage` comprend :
 * Le fichier CSV de données brutes et harmonisées correspondant au premier modèle de données : `data_annuaire_prepared.csv`
 * Le script Python permettant le calcul des coordonnées géographiques manquantes dans le premier fichier CSV : `geocodage_coords_manquantes.py`
+> Comme précisé dans le mémoire, ce script est partiellement fonctionnel et ne nous a pas reservi compte tenu de nos choix ultérieurs, mais il est toutefois laissé en guise d'exemple.
   
 :desktop_computer: **Installation et lancement**
  
